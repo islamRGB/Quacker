@@ -5,39 +5,35 @@
 About:
 ------
 ATXLP (Advanced Toolkit for eXperimental Layer Processing)
-is a  overlay suite that simulates system-level spoofing,
+is an overlay suite that displays system-level spoofing,
 EAC (Easy Anti-Cheat) replacement, and Fortnite build alignment.
 
-
-The software displays randomized logs, fake memory inspections,
-and spoofed API calls to mimic the look and feel of a professional
+The software displays randomized logs, memory inspections,
+and API calls to mimic the look and feel of a professional
 reverse-engineering or cheat development tool.
 
 Fortnite Spoofing :
 -----------------------------
-- Fake Build Sync:   Displays random Fortnite client build numbers
-- HWID Masking:      Simulates spoofing motherboard and drive serials
-- GPU Driver Swap:   Pretends to hook DirectX & Nvidia/AMD APIs
-- EAC Redirect:      Logs suggest Easy Anti-Cheat is being replaced
-- Error Handling:    Always ends with a fake "Outdated build" error
+- Build Sync:       Displays random Fortnite client build numbers
+- HWID Masking:     Masks motherboard and drive serials
+- GPU Driver Swap:  Hooks DirectX & Nvidia/AMD APIs
+- EAC Redirect:     Logs suggest Easy Anti-Cheat is being replaced
+- Error Handling:   Always ends with an "Outdated build" error
 
 Documentation:
 --------------
 1. Launching
-   Run main.py and select "Start ATXLP Process".
-   The suite will begin 
-
+   Run main.py and select "Start ATXLP Process". The suite will begin.
 
 3. Memory Inspector
-   Shows  hex dumps  EAC and Fortnite offsets.
+   Shows hex dumps, EAC and Fortnite offsets.
 
 4. Tools
    - Color Picker: Changes overlay tint
-   - CPU/GPU Sliders:  load controls
-   - Mode Selector: Switch between  modes (Debug, Silent, Aggressive)
-
-
+   - CPU/GPU Sliders: Load controls
+   - Mode Selector: Switch between modes (Debug, Silent, Aggressive)
 
 Credits:
 --------
-Made By Emodi Not Stable for now
+Made By Emodi
+Not Stable for now
