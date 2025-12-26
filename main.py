@@ -14,7 +14,7 @@ ________                       __
 """
 
 # List of fake packages for simulation
-fake_packages = [
+packages = [
     "QuackLib", "NetworkTools", "DataCollector", 
     "AnalyticsModule", "Updater", "SecurityPatch"
 ]
@@ -27,8 +27,8 @@ def start_launcher():
     status_label.config(text="Starting installation...")
     root.update()
 
-    for i, pkg in enumerate(fake_packages, start=1):
-        status_label.config(text=f"Installing {pkg} ({i}/{len(fake_packages)})...")
+    for i, pkg in enumerate(packages, start=1):
+        status_label.config(text=f"Installing {pkg} ({i}/{len(packages)})...")
         root.update()
         time.sleep(2)  # simulate installation delay
 
@@ -38,7 +38,7 @@ def start_launcher():
 def start_atxlp():
     status_label.config(text="Launching ATXLP process...")
     root.update()
-    os.system("python atxlp.py")  # assumes atxlp.py is in the same folder
+    os.system("python atxlp.py")  
 
 root = tk.Tk()
 root.title("QUACKERRR Launcher")
